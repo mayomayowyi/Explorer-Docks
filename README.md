@@ -23,5 +23,13 @@ Windows 11 / x64
 
 ## お問い合わせ・開発支援
 
-- [お問い合わせ](https://mayoel.pages.dev/contact/)
-- [開発支援](https://ko-fi.com/mayomayoi)
+<p>
+  <a href="https://mayoel.pages.dev/contact/">
+    <img src="assets/contact.svg" alt="お問い合わせ" width="192">
+  </a>
+  <a href="https://ko-fi.com/mayomayoi">
+    <img src="https://storage.ko-fi.com/cdn/kofi3.png" alt="Ko-fiで開発を支援" width="192">
+  </a>
+</p>
+
+不具合の報告やご要望はお問い合わせから。開発支援はKo-fiで受け付けています。

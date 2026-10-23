@@ -1,3 +1,5 @@
+
+
 # Explorer Docks
 
 Windows標準のエクスプローラーを画面端に収納できる軽量アプリです。必要なときだけ展開して使えます。
@@ -10,6 +12,7 @@ Windows 11 / x64
 
 ## 使い方
 
+https://github.com/user-attachments/assets/7e214848-f30d-4ac9-b2d6-79e98b083c10
 <!-- ここに Explorer Docks2.mp4 をドラッグ＆ドロップすると、動画が表示されます。 -->
 
 1. エクスプローラーの右上にある「Dock」をクリックすると、画面端へ収納されます。

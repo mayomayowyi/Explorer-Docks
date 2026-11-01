@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>ExplorerDocks</RootNamespace>
+    <AssemblyName>ExplorerDocks</AssemblyName>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+    <Version>0.0.7</Version>
+    <GitHubRepository>mayomayowyi/Explorer-Docks</GitHubRepository>
+    <ApplicationIcon Condition="Exists('assets/app.ico')">assets/app.ico</ApplicationIcon>
+    <!-- 常駐ツールなのでバックグラウンドGCスレッドを使わず、メモリを抑える -->
+    <ConcurrentGarbageCollection>false</ConcurrentGarbageCollection>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="tests/**/*.cs" />
+    <AssemblyAttribute Include="System.Reflection.AssemblyMetadataAttribute">
+      <_Parameter1>GitHubRepository</_Parameter1>
+      <_Parameter2>$(GitHubRepository)</_Parameter2>
+    </AssemblyAttribute>
+    <EmbeddedResource Include="assets/app.ico" LogicalName="ExplorerDocks.AppIcon"
+                      Condition="Exists('assets/app.ico')" />
+    <EmbeddedResource Include="packaging/apply_update.ps1" LogicalName="ExplorerDocks.ApplyUpdate" />
+  </ItemGroup>
+</Project>

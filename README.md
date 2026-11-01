@@ -12,8 +12,6 @@ Windows 11 / x64
 
 ## 使い方
 
-> **※ ご注意：** 以下の動画は旧バージョンの操作例です。v0.0.4以降は「Works」などの機能が追加されているため、現在の画面や操作方法とは一部異なります。
-
 https://github.com/user-attachments/assets/e6145cd3-fa22-49d6-a66a-1b1e3e47452f
 <!-- ここに Explorer Docks2.mp4 をドラッグ＆ドロップすると、動画が表示されます。 -->
 
